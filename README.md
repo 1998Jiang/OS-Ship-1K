@@ -8,10 +8,8 @@ Our paper **“OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal S
 
 ## 📖 Abstract
 
-Optical--synthetic aperture radar (SAR) remote sensing data can combine the fine-grained representation ability of optical images with \
-the all-day and all-weather observation advantages of SAR images, 
-thereby providing complementary information for ship detection. 
-However, publicly available optical--SAR paired ship detection data remain scarce.  
+Optical--synthetic aperture radar (SAR) remote sensing data can combine the fine-grained representation ability of optical images with the all-day and all-weather observation advantages of SAR images, 
+thereby providing complementary information for ship detection. However, publicly available optical--SAR paired ship detection data remain scarce.  
 To alleviate this problem, this paper proposes OS-Ship-1K, a pseudo-paired optical--SAR dataset for multimodal ship detection. 
 Specifically, we first compare several mainstream unpaired image translation models 
 and select CycleGAN to translate optical ship images into SAR-style images. 
