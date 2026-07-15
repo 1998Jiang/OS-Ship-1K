@@ -55,8 +55,15 @@ The OS-Ship-1K dataset can be downloaded from Baidu Netdisk:
 - **Baidu Netdisk:** [Download OS-Ship-1K](请在此处填写百度网盘链接)
 - **Extraction Code:** `请填写提取码`
 
-Example:
+- ## Dataset Download
 
-```text
-Baidu Netdisk: https://pan.baidu.com/s/xxxxxxxxxxxxxxxx
-Extraction Code: xxxx
+If OS-Ship-1K is useful for your research, please cite our paper:
+
+@inproceedings{jiang2026osship1k,
+  title     = {OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal Ship Detection},
+  author    = {Jiang, Lingjie and Luo, Xin and Lin, Yuhao and Peng, Dongliang and Xu, Kaiyuan},
+  booktitle = {Proceedings of the 9th Chinese Conference on Pattern Recognition and Computer Vision},
+  year      = {2026}
+}
+
+
