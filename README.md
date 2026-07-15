@@ -1,4 +1,4 @@
-# OS-Ship-1K
+# OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal Ship Detection
 
 ## 📢 News
 
@@ -6,11 +6,20 @@ Our paper **“OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal S
 
 ---
 
-## 📖 Paper Introduction
+## 📖 Abstract
 
-Optical and synthetic aperture radar (SAR) images provide complementary information for ship detection. However, publicly available spatially aligned optical--SAR ship detection datasets remain scarce.
-
-To address this issue, we construct **OS-Ship-1K**, a pseudo-paired optical--SAR dataset for multimodal ship detection. Several unpaired image translation methods are compared, and CycleGAN is selected to generate SAR-style images from optical images. Spatially aligned pseudo-paired samples are then obtained through semi-supervised iterative annotation and mapping.
+Optical--synthetic aperture radar (SAR) remote sensing data can combine the fine-grained representation ability of optical images with \
+the all-day and all-weather observation advantages of SAR images, 
+thereby providing complementary information for ship detection. 
+However, publicly available optical--SAR paired ship detection data remain scarce.  
+To alleviate this problem, this paper proposes OS-Ship-1K, a pseudo-paired optical--SAR dataset for multimodal ship detection. 
+Specifically, we first compare several mainstream unpaired image translation models 
+and select CycleGAN to translate optical ship images into SAR-style images. 
+Then, spatially aligned pseudo-paired samples are generated through semi-supervised iterative annotation and mapping. 
+OS-Ship-1K contains 1,000 pairs of optical and SAR-style images and provides annotations for \textit{Ship} and \textit{Ships}, 
+covering sparse offshore, dense offshore, and nearshore scenarios. 
+In addition, we evaluate 14 single-modal detectors and 6 multimodal fusion detectors on OS-Ship-1K, 
+establishing detection baselines. The dataset are available at \url{https://github.com/1998Jiang/OS-Ship-1K}.
 
 ---
 
