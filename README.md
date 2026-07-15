@@ -1,69 +1,71 @@
 # OS-Ship-1K
 
-[![Conference](https://img.shields.io/badge/PRCV-2026-blue.svg)](https://github.com/1998Jiang/OS-Ship-1K)
-[![Dataset](https://img.shields.io/badge/Dataset-OS--Ship--1K-green.svg)](https://github.com/1998Jiang/OS-Ship-1K)
-[![License](https://img.shields.io/badge/License-Research%20Use-lightgrey.svg)](LICENSE)
+## 📢 News
 
-Official repository of the paper:
-
-> **OS-Ship-1K: A Pseudo-Paired Optical–SAR Dataset for Multimodal Ship Detection**
-
-The paper has been accepted by the **9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026)**.
+Our paper **“OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal Ship Detection”** has been accepted by the **9th Chinese Conference on Pattern Recognition and Computer Vision (PRCV 2026)**.
 
 ---
 
-## Introduction
+## 📖 Paper Introduction
 
-Optical and synthetic aperture radar (SAR) remote sensing images provide complementary information for ship detection. Optical imagery offers fine-grained visual representations, while SAR imagery provides all-day and all-weather observation capabilities. However, publicly available spatially aligned optical–SAR ship detection datasets remain limited.
+Optical and synthetic aperture radar (SAR) images provide complementary information for ship detection. However, publicly available spatially aligned optical--SAR ship detection datasets remain scarce.
 
-To alleviate this problem, we construct **OS-Ship-1K**, a pseudo-paired optical–SAR dataset for multimodal ship detection. We first compare several mainstream unpaired image-to-image translation methods and select CycleGAN to translate optical ship images into SAR-style images. Spatially aligned pseudo-paired samples are subsequently generated through semi-supervised iterative annotation and mapping.
+To address this issue, we construct **OS-Ship-1K**, a pseudo-paired optical--SAR dataset for multimodal ship detection. Several unpaired image translation methods are compared, and CycleGAN is selected to generate SAR-style images from optical images. Spatially aligned pseudo-paired samples are then obtained through semi-supervised iterative annotation and mapping.
+
+---
+
+## 🗂️ Dataset
 
 OS-Ship-1K contains:
 
-- **1,000 pairs** of spatially aligned optical and SAR-style images;
+- 1,000 pairs of spatially aligned optical and SAR-style images;
 - annotations for two categories: `Ship` and `Ships`;
-- three representative scenarios:
-  - sparse offshore scenes;
-  - dense offshore scenes;
-  - nearshore scenes;
-- benchmarks based on **14 single-modality detectors** and **6 multimodal fusion detectors**.
+- three types of scenes: sparse offshore, dense offshore, and nearshore;
+- benchmarks based on 14 single-modality detectors and 6 multimodal fusion detectors.
 
-The dataset can support research on single-modality ship detection, multimodal fusion detection, optical–SAR image translation, and cross-modal remote sensing image analysis.
+The dataset supports both single-modality ship detection and multimodal fusion detection.
 
 ---
 
-## Dataset Overview
+## 📥 Download
 
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/b7e9287d-d623-4e1f-b22b-dde80ea2cdb3"
-       width="850"
-       alt="Comparison of unpaired image translation methods">
-</p>
+The OS-Ship-1K dataset can be downloaded from Baidu Netdisk.
 
-<p align="center">
-  <em>Comparison of different unpaired image translation methods used in the construction of OS-Ship-1K.</em>
-</p>
+```text
+Baidu Netdisk:
+TODO: Add the download link
 
-The optical images are collected from publicly available ship detection datasets. CycleGAN is used to generate corresponding SAR-style images while preserving the spatial layout of ships and background regions. The annotations are refined through a semi-supervised iterative procedure and mapped between the spatially aligned image pairs.
+Extraction Code:
+TODO: Add the extraction code
+```
 
 ---
 
-## Dataset Download
-
-The OS-Ship-1K dataset can be downloaded from Baidu Netdisk:
-
-- **Baidu Netdisk:** [Download OS-Ship-1K](请在此处填写百度网盘链接)
-- **Extraction Code:** `请填写提取码`
-
-- ## Dataset Download
+## 📚 Citation
 
 If OS-Ship-1K is useful for your research, please cite our paper:
 
+```bibtex
 @inproceedings{jiang2026osship1k,
   title     = {OS-Ship-1K: A Pseudo-Paired Optical--SAR Dataset for Multimodal Ship Detection},
   author    = {Jiang, Lingjie and Luo, Xin and Lin, Yuhao and Peng, Dongliang and Xu, Kaiyuan},
   booktitle = {Proceedings of the 9th Chinese Conference on Pattern Recognition and Computer Vision},
   year      = {2026}
 }
+```
 
+The citation information will be updated after the official Springer proceedings and DOI become available.
 
+---
+
+## 📮 Contact
+
+For questions about the dataset or paper, please contact:
+
+- **Lingjie Jiang**  
+  Email: [13586245162@163.com](mailto:13586245162@163.com)
+
+- **Dongliang Peng**  
+  Email: [dlpeng@hdu.edu.cn](mailto:dlpeng@hdu.edu.cn)
+
+You can also submit questions through the repository's [Issues](https://github.com/1998Jiang/OS-Ship-1K/issues) page.
