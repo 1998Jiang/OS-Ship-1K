@@ -31,11 +31,8 @@ The OS-Ship-1K dataset can be downloaded from Baidu Netdisk.
 
 ```text
 Baidu Netdisk:
-TODO: Add the download link
-
-Extraction Code:
-TODO: Add the extraction code
-```
+https://pan.baidu.com/s/1x5eGQDsoMFhEPuNoSTYW9A
+code: 0869 
 
 ---
 
